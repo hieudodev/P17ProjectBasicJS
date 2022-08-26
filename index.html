@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đồng hồ đếm ngược</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" language=""javascript></script>
+    
+<body>
+    <div id="main">
+        <div id="countdown">
+            <h1>Đồng hồ đếm ngược</h1>
+            <span>Đặt hẹn giờ</span>
+            <div class="hour">Giờ :
+                <input type="text" name="" id="h_val" placeholder="giờ">
+            </div>
+            <div class="minute">Phút : 
+                <input type="text" id="m_val" placeholder="phút">
+            </div>
+            <div class="second">Giây : 
+                <input type="text" id="s_val" placeholder="giây">
+            </div>
+            
+            <div class="view">
+                <h2>Thời gian còn lại</h2>
+                <span id="h">Giờ</span> :
+                <span id="m">Phút</span> :
+                <span id="s">Giây</span> 
+
+            </div>
+
+            <div class="press_button">
+                <input type="button" value="bắt đầu" onclick="start()"/>
+                <input type="button" value="Bắt đầu lại"/>
+                <input type="button" value="Kết thúc" onclick="stop()"/>
+            </div>
+        </div>
+    </div>
+    <script></script>
+</body>
+</html>
